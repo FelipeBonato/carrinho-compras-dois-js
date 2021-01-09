@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    
+}
+th{
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #000;
+}
+td{
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #000;
+}

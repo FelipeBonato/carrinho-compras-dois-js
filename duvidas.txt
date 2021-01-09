@@ -1,1 +1,18 @@
 git push -u origin main ... or ... git push origin main ????
+
+
+
+const movies = [         or           const movies = 
+    {                                   {
+
+    }                                   }
+]                                   
+Array de objeto?
+
+
+
+
+
+
+
+parei: 59:49

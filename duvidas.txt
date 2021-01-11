@@ -11,8 +11,12 @@ Array de objeto?
 
 
 
+col é abreviação de algo?
 
 
+
+
+localStore tem algum tipo de id? como funciona a chamada dela no carrinho?
 
 
 parei: 59:49

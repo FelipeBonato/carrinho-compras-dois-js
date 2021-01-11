@@ -1,11 +1,10 @@
-const currentCartItems = 0;
-
 function updateCartNumber(total) {
     const cartNumberEl = document.getElementById('numero-carrinho')
     cartNumberEl.textContent = total;
 }
+console.log("HOME");
 
-updateCartNumber(currentCartItems);
+localStorage.setItem("list_cart", "Carrinho bem legal");
 
 const cart = [];
 const movies = [
@@ -48,7 +47,7 @@ const movieElements = movies.map((item) => {
     colAction.appendChild(buttonAction)             // acrescentado botao no 'td'
     buttonAction.onclick = function () {
         cart.push(item);
-        updateCartNumber(cart.length)
+        updateCartNumber(cart.length)  // conta quantos obj
         alert("Item adicionado com sucesso");
 
     }
@@ -64,3 +63,5 @@ const movieElements = movies.map((item) => {
 movieElements.forEach((createTr) => {
     tableMoviesEl.appendChild(createTr);
 });
+
+
